@@ -541,6 +541,8 @@ var stage =
              stage.Base.update(e);
          };
          createjs.Ticker.addEventListener("tick",handleTick);
+         createjs.Ticker.timingMode =  createjs.Ticker.RAF_SYNCHED;
+         createjs.Ticker.setFPS(60);
     }
 }
 
