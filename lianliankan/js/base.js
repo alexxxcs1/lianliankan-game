@@ -543,6 +543,7 @@ var stage =
          createjs.Ticker.addEventListener("tick",handleTick);
          createjs.Ticker.timingMode =  createjs.Ticker.RAF_SYNCHED;
          createjs.Ticker.setFPS(60);
+         //zhenjia
     }
 }
 
